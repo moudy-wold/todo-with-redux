@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;font-family: 'Open Sans', sans-serif;
+}
+.main{
+    width:40%;
+    margin:50px auto;
+    padding:10px;
+}
+.card-body{
+    position:relative;
+    border:1px solid rgba(34, 34, 34, 0.322);
+    border-radius:5px;
+    padding:12px;
+    padding-left:20px;
+    margin-top:10px;
+
+}
+.no-task{
+    width:100%;
+    background-color:rgba(34, 34, 34, 0.2);
+    text-align:center;
+    padding:15px;
+    border-radius:10px;
+    color:#fff;
+    font-size:20px;
+}
+.card-body .item{
+    font-size:18px;
+   
+}
+.card-body button{
+    position:absolute;
+    top:14%;
+    right:20px;
+    cursor:pointer;
+    background-color:transparent;
+    border:none;
+}
+
+.card-body button span{
+    font-size:25px;
+    color:rgb(125, 124, 124)
+}
+.card-body button span:hover{
+color:red;
+}
+.edit-parent{
+    width:80%;
+
+}
+.add-parent{
+    display:flex;
+    margin-top:20px;
+}
+.add-parent input{
+    width:80%;
+    padding:10px;
+    border:1px solid rgba(34, 34, 34, 0.322);
+    border-right:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size:20px;
+    outLine:none;
+  }
+.add-parent button{
+    border:1px solid #28a745;
+    color:#28a745;
+    width:20%;
+    background-color:#fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size:15px;
+    cursor:pointer;
+    transition: .2s;
+}
+.add-parent button:hover{
+    color:#fff;
+    background-color:#28a745;
+    
+    
+}
+small{
+    font-size:17px;
+    display:block;
+    margin-top:5px;
+   
+    color:rgba(34, 34, 34, 0.622);
+
+}
